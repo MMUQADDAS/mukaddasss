@@ -1,0 +1,661 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    background: url("./sources/victor-garcia-1263465-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 747px;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-top: 30px;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    /* padding-left: 100px; */
+    text-align: right;
+}
+
+header nav i a {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+
+header nav i a:hover {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #B78601;
+
+}
+
+
+
+header nav ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+}
+
+header nav ul li a:hover {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #B78601;
+
+}
+
+
+
+header .ichki {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 160px;
+    margin-top: 210px;
+}
+
+header .ichki b {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+
+    color: #FFFFFF;
+
+
+
+}
+
+
+header .ichki h2 {
+
+    padding-top: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #B78601;
+
+}
+
+
+
+header .ichki p {
+
+    padding-top: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+
+}
+
+
+
+header .ichki button {
+    margin-top: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+
+    width: 158px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    align-items: center;
+
+
+}
+
+
+
+section {
+    max-width: 100%;
+
+
+}
+
+section .blok {
+    margin-left: 160px;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+section .blok p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #565656;
+}
+
+
+
+
+.images {
+    width: 80%;
+    padding-top: 85px;
+    row-gap: 70px;
+}
+
+
+
+footer {
+    margin-top: 120px;
+    width: 100%;
+    background: #181818;
+    height: 730px;
+
+}
+
+
+main {
+    margin-top: 7s0px;
+    width: 100%;
+    height: 750px;
+}
+
+
+
+
+
+footer p {
+    padding-left: 160px;
+    padding-top: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+}
+
+main p {
+    padding-left: 160px;
+    padding-top: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+footer .boxes {
+    display: flex;
+    text-align: center;
+    padding-top: 91px;
+    width: 100%;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+main .bloks {
+    display: flex;
+    text-align: center;
+    padding-top: 95px;
+    width: 100%;
+    gap: 50px;
+    justify-content: center;
+}
+
+main .bloks h3 {
+    margin: auto;
+    padding-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+main p {
+
+    padding-left: 180px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+main .bloks .p {
+    padding-top: 12px;
+    width: 163px;
+    height: 53px;
+    text-align: left;
+    margin: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 143% */
+
+
+    color: #FFFFFF;
+}
+
+main .bloks .b {
+    width: 251px;
+    height: 343px;
+    background: #181818;
+}
+
+
+footer .boxes .box b {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+}
+
+
+footer .boxes .box .m {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 29px;
+    /* or 171% */
+    width: 360px;
+
+    text-align: center;
+
+
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 450px) {
+    body {
+        max-width: 981px;
+    }
+
+    header {
+        width: 981px;
+
+    }
+
+    header nav i a {
+        width: 300px;
+
+    }
+
+    header nav ul {
+        width: 100px;
+        gap: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .ichki {
+        text-align: left;
+        width: 700px;
+    }
+
+    header .ichki b {
+        font-size: 30px;
+        width: 600px;
+    }
+
+    header .ichki h2 {
+        font-size: 35px;
+
+    }
+
+    section {
+        width: 981px;
+    }
+
+    section .blok {
+        width: 981px;
+    }
+
+    section .blok .images {
+        width: 981px;
+    }
+
+    section .blok .images img {
+
+        max-width: calc(100%/12*3);
+
+    }
+
+
+
+    footer {
+        width: 981px;
+    }
+
+    footer .boxes .box {
+        max-width: calc(100%/12*3);
+    }
+
+    footer .boxes .box .m {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 29px;
+        /* or 171% */
+        width: 250px;
+
+        text-align: center;
+
+
+        color: #FFFFFF;
+    }
+
+
+
+}
+
+
+.tegi {
+    background: url("./sources/alesia-kazantceva-283291-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 981px; */
+    height: 833px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tegi .in h1 {
+
+    padding-top: 177px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 88px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.tegi .in {
+    margin-left: 150px;
+}
+
+.tegi .in p {
+    width: 914px;
+    padding-top: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    /* or 158% */
+
+
+    color: #FFFFFF;
+}
+
+.tegi .in button {
+    margin-top: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+
+    width: 158px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    align-items: center;
+
+
+}
+
+.pasi {
+    /* margin-top: 120px; */
+    width: 100%;
+    background: #181818;
+    height: 380px;
+}
+
+
+
+.pasi nav {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding-top: 92px;
+}
+
+
+.pasi nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    /* padding-left: 100px; */
+    text-align: right;
+}
+
+.pasi nav i a {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+
+.pasi nav i a:hover {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #B78601;
+
+}
+
+
+
+.pasi nav ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+
+}
+
+.pasi nav ul li a:hover {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #B78601;
+
+}
+
+
+.pasi .incha {
+
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding-top: 92px;
+
+}
+
+
+.pasi .incha p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    width: 525px;
+
+
+    color: #FFFFFF;
+
+}
+
+.pasi .incha .yoni {
+
+
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.pasi .incha .yoni a {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+
+.pasi .k {
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.pasi .k p {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
